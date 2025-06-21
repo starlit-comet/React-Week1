@@ -10,14 +10,18 @@
 // import UseStateComponent from "./useState"
 // import Counter from "./counter"
 // import OnChangeComponent from "./onChange"
-import ColorPicker from "./colorPicker"
+// import ColorPicker from "./colorPicker"
+// import UpdaterFunction from "./updaterFunction"
+// import ObjectFunction from "./objectFunction"
+import ArrayFunction from "./arrayFunction"
+
 
 function App() {
 
 
   return (
     <>
-    <ColorPicker />
+    <ArrayFunction />
     
     </>
   )
