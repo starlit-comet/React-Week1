@@ -1,16 +1,19 @@
-function Button(){
-    const styles = {
-      
-    backgroundColor: "hsl(200,100%,50%)",
-    color: "white",
-    padding: "10px 20px",
-    borderRadius: "5px",
-    border:"none",
-    cursor: "pointer"
 
+
+function Button(){
+    let count =0
+    // const handler = ()=>console.log('button pressed')
+    const handler2 = (e)=>{
+       e.target.textContent = "button clicked"
     }
+    // return (
+    //     <button onDoubleClick={(e)=>handler2('hari',e)} >Click me ☠</button>
+    // )
+
     return (
-        <button style={styles} >Click Me</button>
+        // <img src="https://placehold.co/200x250" onClick={(e)=>handler2(e)} ></img>
+        <button onClick={(e)=>handler2(e)} >Click to hide</button>
     )
 }
+
 export default Button

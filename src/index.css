@@ -36,3 +36,62 @@
     margin: 0;
     border-radius: 5px;
 }
+
+.list-category{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: rgb(85, 153, 153);
+    margin-bottom: 10px;
+}
+.list-items{
+    font-size: 2em;
+    list-style: none;
+    color: rgb(32, 58, 7);
+    text-align: center;
+    margin: 0;
+
+}
+.list-items li:hover{
+    color: rgb(14, 27, 214);
+
+    cursor: pointer;
+
+}
+
+.counter-box{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aqua;
+    font-size: 2em;
+}
+.digit{
+    font-size: 3em;
+}
+.counter-button{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.counter-button:hover{
+    cursor: pointer;
+    background-color: rgb(69, 17, 117);
+}
+.color-container{
+    align-items: center;
+    text-align: center;
+    font-size: 2.5em;
+    height: 200px;
+    width: 200px;
+    border: 2px solid burlywood;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
