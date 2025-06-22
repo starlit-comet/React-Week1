@@ -13,15 +13,15 @@
 // import ColorPicker from "./colorPicker"
 // import UpdaterFunction from "./updaterFunction"
 // import ObjectFunction from "./objectFunction"
-import ArrayFunction from "./arrayFunction"
-
+// import ArrayFunction from "./arrayFunction"
+import ArrayOfObjectsFunction from "./array-objects-functions"
 
 function App() {
 
 
   return (
     <>
-    <ArrayFunction />
+    <ArrayOfObjectsFunction />
     
     </>
   )
