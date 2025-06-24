@@ -14,14 +14,17 @@
 // import UpdaterFunction from "./updaterFunction"
 // import ObjectFunction from "./objectFunction"
 // import ArrayFunction from "./arrayFunction"
-import ArrayOfObjectsFunction from "./array-objects-functions"
-
+// import ArrayOfObjectsFunction from "./array-objects-functions"
+// import UseState from "./useEffect"
+// import WidthHeight from "./WxH using useEffect"
+// import ComponentA from "./ComponentA"
+import UseRefInput from "./Input-UseRef"
 function App() {
 
 
   return (
     <>
-    <ArrayOfObjectsFunction />
+    <UseRefInput />
     
     </>
   )
