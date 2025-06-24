@@ -14,10 +14,11 @@
     border-radius: 20%;
     margin-bottom: 10px;
 }
-.card .card-h1 {
+.card h2 {
     font-family: Arial, sans-serif;
+    font-size: 4em;
     margin:0;
-    color: rgba(0, 0, 0, 0.479);
+    color: rgb(0, 0, 0);
 
 }
 
@@ -101,4 +102,21 @@
 .box{
     border:2px solid black;
     padding: 15px 20px;
+}
+
+.control-buttons{
+    padding: 5px;
+}
+.control-buttons button{
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 10px;
+    display: inline;
+    align-items: stretch;
+    background-color: aqua;
+    border: 2px solid rgb(13, 126, 126);
+    border-radius: 5px;
+}
+.control-buttons button:hover{
+    background-color: rgb(7, 78, 78);
 }

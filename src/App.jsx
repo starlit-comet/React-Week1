@@ -18,13 +18,15 @@
 // import UseState from "./useEffect"
 // import WidthHeight from "./WxH using useEffect"
 // import ComponentA from "./ComponentA"
-import UseRefInput from "./Input-UseRef"
+// import UseRefInput from "./Input-UseRef"
+
+import Counter from "./counter1"
 function App() {
 
 
   return (
     <>
-    <UseRefInput />
+    <Counter />
     
     </>
   )
