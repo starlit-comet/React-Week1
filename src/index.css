@@ -120,3 +120,13 @@
 .control-buttons button:hover{
     background-color: rgb(7, 78, 78);
 }
+
+.parent-div{
+    border: 2px solid black;
+    padding: 10px;
+}
+.child-div{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+}

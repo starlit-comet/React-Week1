@@ -17,17 +17,26 @@
 // import ArrayOfObjectsFunction from "./array-objects-functions"
 // import UseState from "./useEffect"
 // import WidthHeight from "./WxH using useEffect"
-// import ComponentA from "./ComponentA"
+import ComponentA from "./ComponentA"
 // import UseRefInput from "./Input-UseRef"
-
-import Counter from "./counter1"
+// import Counter from "./counter1"
+import PointerDemo from "./PointerFunctions"
+import Parent from "./parent"
+import Timer from "./useHistory"
+import { useState } from "react"
 function App() {
+  const[showTimer,setShowTimer] = useState(true)
 
-
+    
   return (
     <>
-    <Counter />
+    <div>
+      <button onClick={(prev)=>setShowTimer(!prev)}>click me</button>
+    </div>
+    { showTimer && <Timer/> }
+    <PointerDemo/>
     
+  
     </>
   )
 }

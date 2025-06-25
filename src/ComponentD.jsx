@@ -1,7 +1,7 @@
 import { useContext } from "react"
-import { UserContext } from "./ComponentA"
+import { MyComponent } from "./ComponentA"
 function ComponentD(){
-    const value = useContext(UserContext)
+    const value = useContext(MyComponent)
     return <div className="box">
         <h2 >Component D</h2>
         <p>bye {value}</p>
